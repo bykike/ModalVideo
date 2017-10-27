@@ -219,7 +219,7 @@ var ModalVideo = function () {
     key: 'getVimeoUrl',
     value: function getVimeoUrl(vimeo, videoId) {
       var query = this.getQueryString(vimeo);
-      return '//player.vimeo.com/video/' + videoId + '?' + query;
+      return 'https://player.vimeo.com/video/' + videoId + '?' + query;
     }
   }, {
     key: 'getYoutubeUrl',
